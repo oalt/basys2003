@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.auto.tuwien.ac.at/basys/download" href="basys.jnlp">
+  <information>
+    <title>BASys 2003</title>
+    <vendor>Institut fuer rechnergestuetzte Automation</vendor>
+    <homepage href="../index.html" />
+  </information>
+  <resources>
+    <j2se version="1.3.1+" />
+    <jar href="basys.jar" />
+  	<jar href="j2ee.jar" />
+  	<jar href="junit.jar" />
+  	<!--<jar href="webrenderer.jar" />-->
+  	<jar href="xercesImpl.jar" />
+  	<jar href="xmlParserAPIs.jar" />
+  	<jar href="log4j-1.2.4.jar" />
+  </resources>
+  <security> 
+	   <all-permissions /> 
+	</security>
+  <application-desc main-class="basys.client.Application" />
+</jnlp>

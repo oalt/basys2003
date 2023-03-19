@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<eib-devices>
+  <eibdevice id="eibdevice-2">
+    <name>AT/S4.16.1 4f-Schaltaktor,16A,REG</name>
+    <comment/>
+    <functions>
+      <functiongroup id="functiongroup-5">
+        <name/>
+        <comment/>
+        <function id="function-5">
+          <name>Ausgang A</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>0</com-object>
+          <function-name>Schalten * UND-Verknüpfung * ODER-Verknüpfung</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+      <functiongroup id="functiongroup-6">
+        <name/>
+        <comment/>
+        <function id="function-6">
+          <name>Ausgang B</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>1</com-object>
+          <function-name>Schalten * UND-Verknüpfung * ODER-Verknüpfung</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+      <functiongroup id="functiongroup-7">
+        <name/>
+        <comment/>
+        <function id="function-7">
+          <name>Ausgang C</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>2</com-object>
+          <function-name>ODER-Verknüpfung * UND-Verknüpfung * Schalten</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+      <functiongroup id="functiongroup-8">
+        <name/>
+        <comment/>
+        <function id="function-8">
+          <name>Ausgang D</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>3</com-object>
+          <function-name>Schalten * ODER-Verknüpfung * UND-Verknüpfung</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+    </functions>
+    <manufacturer>ABB</manufacturer>
+    <installation-type>REG</installation-type>
+    <type>actuator</type>
+    <application id="22896">
+      <mask-version>17</mask-version>
+      <mask-version-name>1.1</mask-version-name>
+      <name>Schalten Logik Vorzug Trepph.fkt./2</name>
+      <version>34.00</version>
+      <device-type>8449</device-type>
+      <pei-type>0</pei-type>
+      <addr-table-address>278</addr-table-address>
+      <addr-table-size>41</addr-table-size>
+      <association-table-address>319</association-table-address>
+      <association-table-size>39</association-table-size>
+      <association-table-pointer>273</association-table-pointer>
+      <communication-table-address>358</communication-table-address>
+      <communication-table-size>26</communication-table-size>
+      <communication-table-pointer>274</communication-table-pointer>
+      <manufacturer>2</manufacturer>
+      <original-manufacturer/>
+      <eeprom-data>ff00000002210121fe000000ffffe063e83f6699a38c01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff08ced6d700d7d700d8d700d9d700dad700dbd700dcd700ddd7002020202000000000d2000000c6018bb700a628cd0dfa3f00819d9d9d9d9d9d9d9d8188a605ae01cd0d54b653a19125e6165b3a5bb65b2bdeb75c155ccd0ca5272abe5c045b05d60184e7d2d60180b758e6d60d5802eada0f5802e4dab858a401b7509f48bb5097e62020a4be5c6dd227c19fcd0d6c26bbbe5c6fd26fd620cc00</eeprom-data>
+      <eeprom-start>256</eeprom-start>
+      <eeprom-end>510</eeprom-end>
+      <uram-start>206</uram-start>
+      <uram-end>223</uram-end>
+      <run-error-address>269</run-error-address>
+      <manufacturer-data-address>257</manufacturer-data-address>
+      <manufacturer-data-size>3</manufacturer-data-size>
+      <manufacturer-id-address>260</manufacturer-id-address>
+      <manufacturer-id-protected>true</manufacturer-id-protected>
+      <route-counter-address>270</route-counter-address>
+    </application>
+  </eibdevice>
+  <eibdevice id="eibdevice-4">
+    <name>ET/S 6.230.1 6f-Binary input,230V,MDRC</name>
+    <comment/>
+    <functions>
+      <functiongroup id="functiongroup-15">
+        <name/>
+        <comment/>
+        <function id="function-15">
+          <name>Eingang A/B - kurzes Signal</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>0</com-object>
+          <function-name>Telegr. Schalten</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+      <functiongroup id="functiongroup-16">
+        <name/>
+        <comment/>
+        <function id="function-16">
+          <name>Eingang C/D - kurzes Signal</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>1</com-object>
+          <function-name>Telegr. Schalten</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+      <functiongroup id="functiongroup-17">
+        <name/>
+        <comment/>
+        <function id="function-17">
+          <name>Eingang E/F - kurzes Signal</name>
+          <comment/>
+          <type>switching</type>
+          <com-object>2</com-object>
+          <function-name>Telegr. Schalten</function-name>
+          <eis-type>0</eis-type>
+        </function>
+      </functiongroup>
+    </functions>
+    <manufacturer>ABB</manufacturer>
+    <installation-type>REG</installation-type>
+    <type>sensor</type>
+    <application id="22924">
+      <mask-version>17</mask-version>
+      <mask-version-name>1.1</mask-version-name>
+      <name>Schalten Dimmen/8</name>
+      <version>34.00</version>
+      <device-type>9217</device-type>
+      <pei-type>0</pei-type>
+      <addr-table-address>278</addr-table-address>
+      <addr-table-size>17</addr-table-size>
+      <association-table-address>295</association-table-address>
+      <association-table-size>17</association-table-size>
+      <association-table-pointer>273</association-table-pointer>
+      <communication-table-address>312</communication-table-address>
+      <communication-table-size>20</communication-table-size>
+      <communication-table-pointer>274</communication-table-pointer>
+      <manufacturer>2</manufacturer>
+      <original-manufacturer/>
+      <eeprom-data>ff00000002240121fd00000000ffe063e0273859686001ffffffffffffffffffffffffffffffff00ffffffffffffffffffffffffffffffff06d0d3cf00d4cf00d5cf00d6cf03d7cf03d8cf0300000101010808080505053c7fb600c8014cb7d981da0000030c3061a603b75ab600ce0157cd0c75c8014cb75b3a5abe5a2be1c6014dad6db757b65bb8d9d40164272cb65bb7d9ad5ca80327e0a103240aa001e7d3d60151e7da816fda6fd66ddd27076fdd3d572735816fdd9f2032b6d9ad3227b8a001a801b7589fcd0d6c26acbe5ad60154e7dad6014e015802aa08e7d66ddd27043d57270aa601e7dd9fab03cd0db9815d2707005a0244444444a403810000</eeprom-data>
+      <eeprom-start>256</eeprom-start>
+      <eeprom-end>510</eeprom-end>
+      <uram-start>206</uram-start>
+      <uram-end>223</uram-end>
+      <run-error-address>269</run-error-address>
+      <manufacturer-data-address>257</manufacturer-data-address>
+      <manufacturer-data-size>3</manufacturer-data-size>
+      <manufacturer-id-address>260</manufacturer-id-address>
+      <manufacturer-id-protected>true</manufacturer-id-protected>
+      <route-counter-address>270</route-counter-address>
+    </application>
+  </eibdevice>
+  <eibdevice id="eibdevice-5">
+    <name>TS3002 , weiß 2-fach Taster</name>
+    <comment/>
+    <functions/>
+    <manufacturer>Somfy</manufacturer>
+    <installation-type>UP</installation-type>
+    <type>sensor</type>
+    <application id="49943">
+      <mask-version>16</mask-version>
+      <mask-version-name>1.0</mask-version-name>
+      <name>Dimmen 102A01</name>
+      <version>1</version>
+      <device-type>4138</device-type>
+      <pei-type>4</pei-type>
+      <addr-table-address>278</addr-table-address>
+      <addr-table-size>15</addr-table-size>
+      <association-table-address>293</association-table-address>
+      <association-table-size>13</association-table-size>
+      <association-table-pointer>273</association-table-pointer>
+      <communication-table-address>306</communication-table-address>
+      <communication-table-size>14</communication-table-size>
+      <communication-table-pointer>274</communication-table-pointer>
+      <manufacturer>78</manufacturer>
+      <original-manufacturer/>
+      <eeprom-data>ff0000004e102a01ff04c00000ff6063e925328384830700ff2000200130003001600060010601000201030204030500060104d0d4d700d5d700d8c703d9c7035f465946465958495958589f43a434b7023f5ca605ad02a603ae01cd0d35b653a9384d25052b02aa404349395c49395cb65c810000000000a603cd0e2aa60fbe5ae42081cd0c824f5fead4485ca30226f8aa01adabae3ccd0c64b759ae01bf5ab6dca403b75b2720b659a403272fadc8273c243ae6d82636a601025904a609b54fe7d89fab022023b659a4032720b75badab270fae26a632cd0e0c2011ad99270d25dd4f025b014ce7d49fcd0d9134dc34dc345934593a5a2aa6b6cfb7dc8100</eeprom-data>
+      <eeprom-start>256</eeprom-start>
+      <eeprom-end>510</eeprom-end>
+      <uram-start>206</uram-start>
+      <uram-end>223</uram-end>
+      <run-error-address>269</run-error-address>
+      <manufacturer-data-address>257</manufacturer-data-address>
+      <manufacturer-data-size>3</manufacturer-data-size>
+      <manufacturer-id-address>260</manufacturer-id-address>
+      <manufacturer-id-protected>true</manufacturer-id-protected>
+      <route-counter-address>270</route-counter-address>
+    </application>
+  </eibdevice>
+</eib-devices>
