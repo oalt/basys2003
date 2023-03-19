@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry exported="true" kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+    <classpathentry kind="lib" path="lib/j2ee.jar"/>
+    <classpathentry kind="lib" path="lib/junit.jar"/>
+    <classpathentry kind="lib" path="lib/log4j-1.2.4.jar"/>
+    <classpathentry kind="lib" path="lib/xercesImpl.jar"/>
+    <classpathentry kind="lib" path="lib/xmlParserAPIs.jar"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>
